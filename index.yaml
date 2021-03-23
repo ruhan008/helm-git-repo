@@ -2,8 +2,22 @@ apiVersion: v1
 entries:
   nokia-stack-service:
   - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2021-03-23T22:15:00.3036737+05:30"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 4.x.x
+    description: A Helm chart for Kubernetes
+    digest: 3aaac4f0e1665ad345bd6654e34f72de27eea887267c307eafa611b27ccfe704
+    name: nokia-stack-service
+    type: application
+    urls:
+    - nokia-stack-service-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-23T12:33:01.4544252+05:30"
+    created: "2021-03-23T22:15:00.3016721+05:30"
     description: A Helm chart for Kubernetes
     digest: e4b48f4597a1915e5d80da423ca2164bd4c8b1f00ea4012ecfbe5a5e9658809f
     name: nokia-stack-service
@@ -13,7 +27,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-23T12:33:01.4544252+05:30"
+    created: "2021-03-23T22:15:00.3016721+05:30"
     description: A Helm chart for Kubernetes
     digest: 024419596a1325c4acb11dfbeac0bf33c6d8d12f6e7ac4c21edf382e974dc8c4
     name: nokia-stack-service
@@ -21,4 +35,4 @@ entries:
     urls:
     - nokia-stack-service-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-23T12:33:01.4534134+05:30"
+generated: "2021-03-23T22:15:00.3006724+05:30"
